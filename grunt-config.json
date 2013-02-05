@@ -1,0 +1,20 @@
+{
+  "min": {
+    "js": {
+      "src": ["out/vendor/jquery.js", "out/vendor/log.js", "out/vendor/modernizr.js", "out/vendor/prettify.js", "out/scripts/script.js"],
+      "dest": "out/scripts/all.min.js"
+    }
+  },
+  "concat": {
+    "css": {
+      "src": ["out/vendor/normalize.css", "out/vendor/prettify.css", "out/styles/bootstrap.css", "out/styles/style.css"],
+      "dest": "out/styles/all.css"
+    }
+  },
+  "cssmin": {
+    "all": {
+      "src": ["out/styles/all.css"],
+      "dest": "out/styles/all.min.css"
+    }
+  }
+}

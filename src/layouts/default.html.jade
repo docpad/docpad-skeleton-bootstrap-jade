@@ -2,22 +2,9 @@
 - var styles = getBlock('styles')
 
 //- Prettify Syntax Highlighting
-- scripts.add(["/vendor/prettify.js"])
-- styles.add(["/vendor/prettify.css"])
-
-//- jQuery
-- scripts.add(["/vendor/jquery.js"])
-
-//- Bootstrap
-- scripts.add(["/vendor/twitter-bootstrap/js/bootstrap.js"])
-- styles.add(["/styles/bootstrap.css","/vendor/twitter-bootstrap/css/bootstrap-responsive.css"])
-
-//- Other Scripts
-- scripts.add(["/vendor/log.js","/vendor/modernizr.js"])
-
-//- User
-- styles.add(["/styles/style.css"])
-- scripts.add(["/scripts/script.js"])
+- scripts.add(getGruntedScripts())
+//- styles.add(getGruntedStyles())  ### TO FIX: this should be the function
+- styles.add(['/styles/all.css'])   //  TO DELETE
 
 doctype 5
 html(lang="en")
