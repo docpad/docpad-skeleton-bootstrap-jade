@@ -40,11 +40,11 @@
     "docpad-plugin-text": "2.x",
     "docpad-plugin-jade": "2.x",
     "docpad-plugin-related": "2.x",
-    "marked": "*"
+    "marked": "*",
+    "bower": "~1"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "2.x",
-    "bower": "~1"
+    "docpad-plugin-livereload": "2.x"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
