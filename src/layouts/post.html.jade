@@ -7,11 +7,11 @@ article#post.post
   .post-content!= content
 
 footer
-  if document.relatedDocuments && document.relatedDocuments.length
+  if getRelatedDocuments().length
     section#related
       h3 Related Posts
       nav.linklist
-        each doc in document.relatedDocuments
+        each doc in getRelatedDocuments()
           li
             span= doc.date.toDateString()
             |  &raquo;&nbsp;
