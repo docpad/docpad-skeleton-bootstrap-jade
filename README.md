@@ -1,4 +1,4 @@
-# [Twitter Bootstrap](http://twitter.github.com/bootstrap/) skeleton for [DocPad](https://github.com/bevry/docpad)
+# [Twitter Bootstrap](http://twitter.github.com/bootstrap/) / [Jade](http://jade-lang.com/) skeleton for [DocPad](https://github.com/bevry/docpad)
 Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.
 
 
