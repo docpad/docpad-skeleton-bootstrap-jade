@@ -9,7 +9,7 @@ Simple and flexible HTML, CSS, and Javascript for popular user interface compone
 1. Clone the project and run the server
 
   ``` bash
-  git clone git://github.com/docpad/twitter-bootstrap.docpad.git
+  git clone git://github.com/docpad/twitter-bootstrap-jade.docpad.git
   cd twitter-bootstrap.docpad
   npm install
   docpad run
