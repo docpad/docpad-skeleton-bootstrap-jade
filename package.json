@@ -1,14 +1,13 @@
 {
   "name": "twitter-bootstrap.docpad",
   "version": "0.9.0",
-  "description": "Twitter Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
+  "description": "Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
   "homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
   "keywords": [
     "docpad-skeleton",
     "docpad",
     "website",
-    "bootstrap",
-    "twitter bootstrap"
+    "bootstrap"
   ],
   "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
   "maintainers": [
