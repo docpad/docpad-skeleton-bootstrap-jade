@@ -12,7 +12,7 @@ Simple and flexible HTML, CSS, and Javascript for popular user interface compone
   ``` bash
   mkdir my-website
   cd my-website
-  docpad run --skeleton bootstrap
+  docpad run --skeleton bootstrap-jade
   ```
 
 1. [Open http://localhost:9778/](http://localhost:9778/)
